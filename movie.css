@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    background-color: blueviolet;
+}
+h1{
+    font-size:xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: blanchedalmond;
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: blanchedalmond;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: brown;
+    font-weight: bold;
+    margin-right: 10px;
+}
+input{
+    border: 2px solid black;
+}
+.rootcontainer{
+    display: flex;
+    flex-direction: column;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    text-align: center;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .containerc {
+        /* padding: 2px 16px;  */
+        background-color: brown;
+        width: 100%;
+        border:2px solid black;
+  }
+  .column {
+    float: left;
+  width: 25%;
+  padding: 0 10px;
+  }
+  .row {
+    margin: 0 -5px;
+    display: grid;
+    flex-direction: column-reverse;
+}
